@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #002F87;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #888;
+    font-weight: 500;
+  }
+  
+  nav a.active {
+    color: #f55;
+    border-bottom: 2px solid #f55;
+  }
+  
+  .post-btn {
+    background: none;
+    border: 2px solid #f55;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: #f55;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+  }
+  
+  .search-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .search-section input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-section button {
+    padding: 10px 15px;
+    background: #001f5c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .history {
+    margin-left: auto;
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px 30px;
+  }
+  
+  .item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .item p {
+    color: #222;
+    font-weight: bold;
+  }
+  
+  .item span {
+    display: block;
+    font-size: 0.85rem;
+    color: gray;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+  }
+  
